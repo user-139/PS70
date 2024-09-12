@@ -18,10 +18,40 @@
 				font-family: 'Arial';
 				margin-left: 50px;
 			}
+			.grid-container {
+    			display: grid;
+    			grid-template-columns: repeat(4, 100px);
+    			grid-gap: 10px;
+			}
+			.grid-item {
+    			width: 100px;
+    			height: 100px;
+    			background-color: #ccc;
+    			transition: background-color 0.3s ease;
+			}
+
+			.grid-item:hover {
+    			background-color: #4CAF50;
+			}
 		</style>
 	</head>
 	<body style="background-color: beige;">
 		<br> <h1 class="header"> Alex Hughes -- Fall 2024 PS70 Documentation </h1> <br>
+		<div class="grid-container">
+        	<div class="grid-item"> <a href="week-one.html"> Week 1: Final Project Proposal </a> </div>
+        	<div class="grid-item"> <a href="placeholder.html"> Week 2: 2D Design </a> </div>
+        	<div class="grid-item"> <a href="placeholder.html"> Week 3: Hand Tools </a> </div>
+        	<div class="grid-item"> <a href="placeholder.html"> Week 4: Microcontrollers </a> </div>
+        	<div class="grid-item"> <a href="placeholder.html"> Week 5: 3D Design and Printing </a> </div>
+        	<div class="grid-item"> <a href="placeholder.html"> Week 6: Electronic Input Devices </a> </div>
+        	<div class="grid-item"> <a href="placeholder.html"> Week 7: Electronic Output Devices </a></div>
+        	<div class="grid-item"> <a href="placeholder.html"> Week 8: CNC Milling </a> </div>
+        	<div class="grid-item"> <a href="placeholder.html"> Week 9: Internet of Things </a> </div>
+        	<div class="grid-item"> <a href="placeholder.html"> Week 10: Machine Building </a></div>
+        	<div class="grid-item"> <a href="placeholder.html"> Week 11: Interfacing Projects with Computers </a></div>
+        	<div class="grid-item"> <a href="placeholder.html"> Final Project </a> </div>
+        </div>
+
 		<h2 class="subhed"> <a href="about.html"> About Me </a> </h2>
 		<h2 class="subhed"> <a href="week-one.html"> Week 1: Final Project Proposal </a> </h2>
 		<h2 class="subhed"> <a href="placeholder.html"> Week 2: 2D Design</a> </h2>
@@ -38,6 +68,4 @@
 	</body>
 </html>
 
-<!-- Credit to Codecademy, ChatGPT, and Nick Lopez for instruction on HTML elements -->
-<!-- Use nav command for navigation bar -->
-<!-- Use video command to embed videos but be careful that they not be too large -->
+<!-- Credit to Codecademy, ChatGPT, and Nick Lopez for instruction on HTML elements and sample code-->
